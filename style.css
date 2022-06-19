@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: whitesmoke;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.tweet-area {
+    width: 50%;
+    background-color: ghostwhite;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.tweet-container {
+    display: flex;
+    height: 200px;
+    background-color: ghostwhite;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-tweet {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+}
+.counter {
+    margin-left: auto;
+    margin-right: 120px;
+    margin-top: 10px;
+    color: #00acee;
+    opacity: 0.8;
+}
+
+.form-field {
+    width: 80%;
+    height: 130px;
+    border: none;
+    background-color: rgb(254, 247, 235);
+    color: rgb(181, 181, 181);
+    display: flex;
+    font-size: 20px;
+    resize: none;
+    white-space: pre-wrap;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+.form-field:hover, .form-field:active, .form-field:focus {
+    box-shadow: 0 0 5px rgb(0, 172, 238);
+    outline: none;
+
+}
+/* .form-field:active {
+    box-shadow: 0 0 5px rgb(0, 172, 238);
+    border: ;
+} */
+
+Form .form-button {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border: none;
+    padding: 10px 5px;
+    background-color: #1dcaff;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.disabled {
+    background-color: #58d8ff;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    padding: 25px 5px;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.handle {
+    margin-left: 15px;
+    color: rgb(170, 170, 170);
+}
+
+.tweet-data {
+    padding: 0 0.5px;
+    border: 0.5px solid rgb(181, 181, 181);
+
+}
+
+.tweet-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px 5px;
+}
+
+.tweet-time {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.trash {
+    margin-left: 8px;
+}
+
+.edit {
+    margin-top: 3px;
+}
